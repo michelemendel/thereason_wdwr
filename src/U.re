@@ -1,0 +1,1 @@
+let logList = ls => Js.log(Array.of_list(ls));
