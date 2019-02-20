@@ -1,4 +1,7 @@
-let myShirt = ShirtSize.XLarge(1);
-let myPrice = ShirtSize.price(myShirt);
+let ch = 'a';
 
-Js.log(ShirtSize.toFixed(myPrice, ~digits=2));
+Js.log(ch);
+
+let s = String.make(10, ch);
+
+Js.log(s);
